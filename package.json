@@ -1,0 +1,22 @@
+{
+  "name": "neovm",
+  "version": "0.0.0",
+  "description": "NeoVM written in JavaScript",
+  "main": "ExecutionEngine.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/NeoResearch/NeoVM.js.git"
+  },
+  "keywords": [
+    "neo-vm"
+  ],
+  "author": "Igor M. Coelho (NeoResearch)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NeoResearch/NeoVM.js/issues"
+  },
+  "homepage": "https://github.com/NeoResearch/NeoVM.js#readme"
+}
