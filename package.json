@@ -2,7 +2,7 @@
   "name": "neovm",
   "version": "0.0.0",
   "description": "NeoVM written in JavaScript",
-  "main": "ExecutionEngine.js",
+  "main": "Integer.js",
   "scripts": {
     "test": "jest"
   },
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/NeoResearch/NeoVM.js/issues"
   },
-  "homepage": "https://github.com/NeoResearch/NeoVM.js#readme"
+  "homepage": "https://github.com/NeoResearch/NeoVM.js#readme",
+  "dependencies": {
+    "csbiginteger": "^1.1.0",
+    "jest": "^23.5.0"
+  }
 }
