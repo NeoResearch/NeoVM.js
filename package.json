@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/NeoResearch/NeoVM.js#readme",
   "dependencies": {
-    "csbiginteger": "^1.1.0",
+    "babel": "^6.23.0",
+    "babel-jest": "^23.6.0",
+    "csbiginteger": "^2.7.0",
     "jest": "^23.5.0"
   }
 }
