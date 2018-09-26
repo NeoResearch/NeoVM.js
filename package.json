@@ -2,9 +2,10 @@
   "name": "neovm",
   "version": "0.1.0",
   "description": "NeoVM written in JavaScript",
-  "main": "Integer.js",
+  "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "./node_modules/.bin/jest",
+    "build": "./node_modules/.bin/webpack"
   },
   "repository": {
     "type": "git",
@@ -20,9 +21,11 @@
   },
   "homepage": "https://github.com/NeoResearch/NeoVM.js#readme",
   "dependencies": {
-    "babel": "^6.23.0",
-    "babel-jest": "^23.6.0",
-    "csbiginteger": "^2.7.0",
-    "jest": "^23.5.0"
+    "csbiginteger": "^2.8.0",
+    "jest": "^23.6.0",
+    "webpack": "^4.20.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.1"
   }
 }
